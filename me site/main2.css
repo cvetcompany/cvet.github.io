@@ -1,0 +1,133 @@
+@media screen and (max-width: 1200px){
+}
+@media screen and (max-width: 998px){
+}
+@media screen and (max-width: 768px){
+}
+@media screen and (max-width: 576px){
+}
+*{
+  font-family: Arial, sans-serif;
+}
+
+/* Стилизация заголовков */
+h1,h2, h3{
+  color: #b7862b;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10px;
+}
+.HTML{
+  color: #176abd;
+}
+/* Стилизация навигации */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #b7862b;
+  text-decoration: none;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+/* Стилизация секций */
+section {
+  padding: 50px;
+}
+
+#home {
+  background-color: black;
+  text-align: center;
+  border-bottom: 5px solid #3e3f40;
+}
+
+#about {
+  background-color: #3a404a;
+  color: #97999c;
+}
+#Frontend_razrab{
+  background-color: #3a404a;
+  color: #97999c;
+}
+#texnologi{
+  background-color: #3a404a;
+  color: #97999c;
+  }
+#ysluga{
+  background-color: #3a404a;
+  color: black;
+  text-align: center;
+  border-top: 5px solid #292827;
+  border-bottom: 5px solid #292827;
+  text-decoration: none;
+}
+#ysluga2{
+  background: #bdbdbd;
+  padding-top: 125px;
+  width: 500px;
+  height: 250px;
+  text-align: center;
+  margin-left: auto;
+    margin-right: auto;
+  z-index: 1;
+  border-radius: 10px;
+}
+#ysluga2:hover{
+  background: #292827;
+}
+#portfolio {
+  background-color: #3a404a;
+  color: #97999c;
+  border-bottom: 5px solid #292827;
+}
+
+
+/* Стилизация кнопки */
+.btn {
+  background-color: #292827;
+  color: #b7862b;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Стилизация портфолио */
+.portfolio-item {
+  margin-bottom: 20px;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+}
+
+#tg {
+  background-color: #bdbdbd;
+  color: #97999c;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Стилизация подвала */
+footer {
+  background-color: black;
+  color: #b7862b;
+  text-align: center;
+  padding: 20px;
+  border-top: 5px solid #3e3f40;
+}
+body{
+  background-color: #292827;
+}
+#ava{
+  z-index: 0;
+  position: relative;
+
+}
